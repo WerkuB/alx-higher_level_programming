@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 "4-square.py define"
 
+
 class Square:
     """class Square
     """

@@ -1,13 +1,14 @@
 #!/usr/bin/python3
 "5-square.py define"
 
+
 class Square:
     """class Square
     """
 
     def __init__(self, size=0):
         """Inizialitation of variables
-        Arg self 
+        Arg self
         size of square
         """
         self.size = size
@@ -15,14 +16,14 @@ class Square:
     @property
     def size(self):
         """Inizialitation of variables
-        Arg self 
+        Arg self
         """
         return self.__size
 
     @size.setter
     def size(self, value):
         """Inizialitation of variables
-        Arg self 
+        Arg self
         value of square
         """
         if not isinstance(value, int):
@@ -39,7 +40,7 @@ class Square:
 
     def my_print(self):
         """Inizialitation of variables
-        Arg self 
+        Arg self
         """
         if self.__size == 0:
             print()

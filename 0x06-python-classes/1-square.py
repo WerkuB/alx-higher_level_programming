@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 "0-square.py define"
 
+
 class Square:
-    """Class 
+    """Class Square
     """
 
     def __init__(self, size):
