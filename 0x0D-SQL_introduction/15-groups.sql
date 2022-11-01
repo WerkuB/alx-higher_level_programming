@@ -1,2 +1,2 @@
 -- a script which displays number of records with score
-select score, count(*) as 'number' from second_table group by score order by 2 desc;
+SELECT score, COUNT(*) AS 'number' FROM second_table GROUP BY score ORDER BY 2 DESC;
