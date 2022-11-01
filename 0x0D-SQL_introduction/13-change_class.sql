@@ -1,2 +1,2 @@
--- a script which print list of student with score >=5r
-SELECT score,name FROM second_table WHERE score >= 5 ORDER BY score DESC;
+-- TSELECT score,name FROM second_table WHERE score >= 10 ORDER BY score DESC;r
+DELETE FROM second_table WHERE score >= 5;
