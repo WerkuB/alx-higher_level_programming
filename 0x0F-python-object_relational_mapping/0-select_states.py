@@ -6,10 +6,10 @@ if __name__ == '__main__':
     import MySQLdb
     import sys
 
-    db_con = MySQLdb.connect(host='localhost', port=3306,
+    db = MySQLdb.connect(host='localhost', port=3306,
                          user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
 
-    cur = db_con.cursor()
+    cur = db.cursor()
     cur.execute("SELECT * FROM states ORDER BY states.id ASC;")
     rows = cur.fetchall()
     for row in rows:
