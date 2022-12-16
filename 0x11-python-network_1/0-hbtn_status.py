@@ -1,6 +1,9 @@
 #!/usr/bin/python3
-'''task 0 script'''
+''' A a Python script that fetches https://alx-intranet.hbtn.io/status
 
+You must use the package urllib
+You are not allowed to import any packages other than urllib
+You must use a with statement'''
 
 if __name__ == '__main__':
     import urllib.request
